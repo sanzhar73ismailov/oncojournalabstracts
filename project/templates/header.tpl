@@ -1,17 +1,9 @@
 <div id="header">
 		
-			<div style="position: absolute; left: 900px; top: 2px;">
+<!-- 			<div style="position: absolute; left: 900px; top: 2px;">
 				<img src="img/2012.jpg" width="140" height="180" />
-			</div>
+			</div> -->
 			
-			<div style="position: absolute; right: 150px; top: 2px;">
-			{if $lang == 'kz'}<span class="selectedLang">КАЗ</span>{else}<a class="notSelectedLang" href="?page={$page}&id={$id}&language=kaz">КАЗ</a>{/if}
-			{if $lang == 'ru'}<span class="selectedLang">РУС</span>{else}<a class="notSelectedLang" href="?page={$page}&id={$id}&language=rus">РУС</a>{/if}
-			{if $lang == 'en'}<span class="selectedLang">ENG</span>{else}<a class="notSelectedLang"href="?page={$page}&id={$id}&language=eng">ENG</a>{/if}
-			
-			
-			
-			</div>
 			{if $statistics_on == 0}
 			<div style='background-color: yellow;position: absolute; top: 10px;'>
 			statistics off<br/> 
@@ -77,7 +69,7 @@
 			</div>
 		 {/if}
 			
-			<div class="logoheader">
+<!-- 			<div class="logoheader">
 
 				<h1 id="logo">
 					<nobr>{$text['journal_name']}</nobr>
@@ -90,7 +82,9 @@
 					</span>
 				</h1>
 
-			</div>
+			</div> -->
+
+			
             
 		</div>
 		<!-- end header -->

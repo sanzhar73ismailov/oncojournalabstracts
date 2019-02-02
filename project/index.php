@@ -21,7 +21,8 @@ include('lang/' . $lang . '.php');
 if(isset ( $_REQUEST ['id'] )){
 	$smarty->assign('id', $_REQUEST ['id']);
 }
-$lang_for_model = "rus";
+$lang_for_model = "eng";
+/*
 if($lang=="kz"){
 	$lang_for_model = "kaz";
 }elseif ($lang=="en"){
@@ -29,16 +30,18 @@ if($lang=="kz"){
 }else{
 	$lang_for_model = "rus";
 }
-
+*/
 $ip = getRealIpAddr();
 $userAgent = getUserAgent();
 $title = $_LANG['journal_name'];
 
 switch ($page) {
 	case "index" :
-		break;
+		//break;
 	case "search" :
-		$title = $_LANG['search'];
+	    //$title = $_LANG['search'];
+		$title = 'Abstracts search in the journal Oncology and Radiology of Kazakhstan';
+		//oncojournalabstracts
 		$search_text = "";
 		$search_criteria = "";
 		$sortby = "asc";
@@ -61,15 +64,6 @@ switch ($page) {
 		$smarty->assign ( 'showAbstractLabel',  $showAbstractLabel);
 
 		$contentPage = "search";
-		break;
-	case "editorial-board" :
-		$title = $_LANG['editorial-board_menu'];
-		$contentPage = "editorial-board";
-		break;
-	case "regulations" :
-		$title = $_LANG['regulations_menu'];
-		$contentPage = "regulations";
-		$smarty->assign ( 'sumPerPage', SUM_PER_PAGE );
 		break;
 	case "current_issue" :
 		$contentPage = "current_issue";
@@ -108,10 +102,6 @@ switch ($page) {
 		$contentPage = "archive";
 		//$smarty->assign ( 'journals', getJournalArray() );
 		$smarty->assign ( 'journals', $model->getIssues() );
-		break;
-	case "contacts" :
-		$title = $_LANG['contacts_menu'];
-		$contentPage = "contacts";
 		break;
 }
 

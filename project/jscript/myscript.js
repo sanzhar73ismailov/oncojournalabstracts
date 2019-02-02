@@ -5,8 +5,9 @@
 function showAbstarct(abstrId, lang){
 	// showAbstract
 	// abstract
-	var showLabel ="Показать реферат >>";
-	var hideLabel ="<< Скрыть реферат";
+	var showLabel ="Show abstract >>";
+	var hideLabel ="<< Hide abstract";
+	/*
 	if(lang=="kaz"){
 		showLabel ="Показать реферат >>";
 		hideLabel ="<< Скрыть реферат";
@@ -14,6 +15,7 @@ function showAbstarct(abstrId, lang){
 		showLabel ="Show abstract >>";
 		 hideLabel ="<< Hide abstract";
 	}
+	*/
 	try{
 		var idForElDiv = "abstract" + abstrId;
 		var elDiv = document.getElementById(idForElDiv);

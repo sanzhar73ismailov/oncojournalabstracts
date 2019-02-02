@@ -60,6 +60,8 @@ function getUserAgent() {
 	return $bot;
 }
 function getLanguageFromBrowser() {
+	if(true)
+		return "eng";
 	// print_r ( $_SERVER ['HTTP_ACCEPT_LANGUAGE'] );
 	$str = strtolower ( $_SERVER ['HTTP_ACCEPT_LANGUAGE'] );
 	$pieces = explode ( ",", $str );
@@ -90,6 +92,9 @@ function setLanguageToSession($str) {
 	}
 }
 
+setLanguageToSession ("eng");
+
+/*
 if (isset ( $_GET ['language'] )) {
 	// echo "<h2>set lanf from get</h2>";
 	setLanguageToSession ( $_GET ['language'] );
@@ -101,6 +106,7 @@ if (isset ( $_GET ['language'] )) {
 		// echo "<h2>set lang already</h2>";
 	}
 }
+*/
 
 $lang = isset ( $_SESSION ['lang'] ) ? $_SESSION ['lang'] : 'en';
 $include_metrica = 0;

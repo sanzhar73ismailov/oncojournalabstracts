@@ -1,9 +1,13 @@
-<div id="search" style="text-align:left;width:1000px;line-height:2;">
+<div id="search">
 
 <form action="index.php" method="post">
 <input type="hidden" name="page" value="search"/>
-<h3>Bibliography search</h3>
-<INPUT TYPE=TEXT  SIZE="100" NAME="search" style="border-style:solid;" VALUE="{$search_text}"> <br/>
+<div class="input-group mb-3">
+	<input type="text" class="form-control" name="search" value="{$search_text}"> 
+	<div class="input-group-append">
+		<input class="btn btn-primary"  type="submit" value="Search"> 
+	</div>
+</div>
 
 <table>
 <tr><td>
@@ -22,15 +26,15 @@
 </td></tr>
 </table>
 
-<INPUT TYPE=SUBMIT style="width:60px;height:23px;background-color:#DDD;border-style:solid;" VALUE="Search"> 
+
 </form>
 
 
 {if $search_text neq ''}Found : {$publs|@count}{/if}
 
-<table border="0" cellspace="10px" cellpadding="10px" style="font-size: 14px;">
+<table class="table table-bordered">
 	{foreach from=$publs item=publ name=foo}
-	<tr style="background-color: #DEE; text-align: center; padding: 10px;">
+	<tr style="text-align: center; padding: 10px;">
 		<td><nobr>{$smarty.foreach.foo.iteration}</nobr></td>
 		<td style="text-align: left; padding: 10px;">
 		<i>{$publ->authors}</i><br/>{$publ->name}
