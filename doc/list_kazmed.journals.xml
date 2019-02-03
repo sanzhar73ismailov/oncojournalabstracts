@@ -1,0 +1,104 @@
+<journals>
+	<journal>
+		<name>template</name>
+		<url><![CDATA[TTT]]></url>
+		<urlPdfs><![CDATA[TTT]]></urlPdfs>
+		<siteAlive>1</siteAlive>
+	</journal>
+	<journal>
+		<name>Астана медицинский журнал</name>
+		<url><![CDATA[http://www.amu.kz/science_and_research_clinic/science/office_of_science_and_innovation_development/the_editors_of_scientific_journals/]]></url>
+		<urlPdfs><![CDATA[http://www.amu.kz/science_and_research_clinic/science/scientific_publications_ao_mua/astanalyk_medicine_journals/]]></urlPdfs>
+		<siteAlive>1</siteAlive>
+	</journal>
+	<journal>
+		<name>Вестник КазНМУ</name>
+		<url><![CDATA[https://kaznmu.kz/rus/%D0%B2%D0%B5%D1%81%D1%82%D0%BD%D0%B8%D0%BA/]]></url>
+		<urlPdfs><![CDATA[https://kaznmu.kz/press/%D0%B0%D1%80%D1%85%D0%B8%D0%B2/]]></urlPdfs>
+		<siteAlive>1</siteAlive>
+	</journal>
+	<journal>
+		<name>Вестник хирургии Казахстана</name>
+		<url><![CDATA[http://vhk.kz/]]></url>
+		<urlPdfs><![CDATA[http://vhk.kz/category/all/]]></urlPdfs>
+		<siteAlive>1</siteAlive>
+	</journal>
+	<journal>
+		<name>Вестник Южно – Казахстанской медицинской академии</name>
+		<url><![CDATA[]]></url>
+		<urlPdfs><![CDATA[]]></urlPdfs>
+		<siteAlive>0</siteAlive>
+	</journal>
+	<journal>
+		<name>Гигиена труда и медицинская экология</name>
+		<url><![CDATA[http://journal.ncgtpz.kz/]]></url>
+		<urlPdfs><![CDATA[http://journal.ncgtpz.kz/]]></urlPdfs>
+		<siteAlive>1</siteAlive>
+	</journal>
+	<journal>
+		<name>Денсаулық сақтауды дамыту</name>
+		<url><![CDATA[http://www.hcdj.kz/]]></url>
+		<urlPdfs><![CDATA[]]></urlPdfs>
+		<siteAlive>0</siteAlive>
+	</journal>
+	<journal>
+		<name>Здоровье и болезнь</name>
+		<url><![CDATA[http://kan-kaz.org/journal.php]]></url>
+		<urlPdfs><![CDATA[]]></urlPdfs>
+		<siteAlive>1</siteAlive>
+	</journal>
+	<journal>
+		<name>Клиническая медицина Казахстана</name>
+        <url><![CDATA[http://www.clinmedkaz.org/sayfa.php?sayfa_id=4&dil=tr]]]]></url>
+		<urlPdfs><![CDATA[http://www.clinmedkaz.org/arsiv.php?dil=tr]]></urlPdfs>
+		<siteAlive>1</siteAlive>
+	</journal>
+	<journal>
+		<name>Медицина</name>
+		<url><![CDATA[http://www.medzdrav.kz/index.php/izdatelstvo/zhurnal-meditsina]]></url>
+		<urlPdfs><![CDATA[http://www.medzdrav.kz/index.php/izdatelstvo/zhurnal-meditsina]]></urlPdfs>
+		<siteAlive>1</siteAlive>
+	</journal>
+	<journal>
+		<name>Онкология и радиология Казахстана</name>
+		<url><![CDATA[TTT]]></url>
+		<urlPdfs><![CDATA[TTT]]></urlPdfs>
+		<siteAlive>1</siteAlive>
+	</journal>
+	<journal>
+		<name>Офтальмологический журнал Казахстана</name>
+		<url><![CDATA[http://oncojournal.kz/]]></url>
+		<urlPdfs><![CDATA[http://oncojournal.kz/arhiv/]]></urlPdfs>
+		<siteAlive>1</siteAlive>
+	</journal>
+	<journal>
+		<name>Офтальмологический журнал Казахстана</name>
+		<url><![CDATA[http://eyeinst.kz/magazine/]]></url>
+		<urlPdfs><![CDATA[http://eyeinst.kz/magazine/]]></urlPdfs>
+		<siteAlive>1</siteAlive>
+	</journal>
+	<journal>
+		<name>Педиатрия и детская хирургия</name>
+		<url></url>
+		<urlPdfs></urlPdfs>
+		<siteAlive>0</siteAlive>
+	</journal>
+	<journal>
+		<name>Поиск</name>
+		<url></url>
+		<urlPdfs></urlPdfs>
+		<siteAlive>1</siteAlive>
+	</journal>
+	<journal>
+		<name>Проблемы стоматологии</name>
+		<url></url>
+		<urlPdfs></urlPdfs>
+		<siteAlive>1</siteAlive>
+	</journal>
+	<journal>
+		<name>Терапевтический вестник</name>
+		<url><![CDATA[http://www.kzcardio.org/terapevticheskij-vestnik.html]]></url>
+		<urlPdfs>http://www.kzcardio.org/terapevticheskij-vestnik.html</urlPdfs>
+		<siteAlive>1</siteAlive>
+	</journal>
+</journals>
