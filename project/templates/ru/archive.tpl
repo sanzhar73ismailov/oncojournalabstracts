@@ -10,7 +10,7 @@
 		<td>{$journal->year}</td>
 		<td>{$journal->number}</td>
 		<td>{$journal->issue}</td>
-		<td><a onclick=contClick({$journal->id},'i') class="dowloadJournal" href="archive/{$journal->file}" download><img src="img/icon-pdf-small.gif" alt="{$journal->file}" title="{$text['Download']}"/></a></td>
+		<td><a onclick=contClick({$journal->id},'i') class="dowloadJournal" href="http://oncojournal.kz/docs/archive/{$journal->file}" download><img src="img/icon-pdf-small.gif" alt="{$journal->file}" title="{$text['Download']}"/></a></td>
 		<td>
 		{if $journal->is_filled_by_papers}<a href="index.php?page=current_issue&id={$journal->id}">{$text['content']}</a>{else}-{/if}
 		</td>
