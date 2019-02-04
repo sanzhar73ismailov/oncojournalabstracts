@@ -1,0 +1,7 @@
+require valid-user
+Authname "Basic Auth"
+Authtype Basic
+AuthUserFile "/var/www/vhosts/biostat.kz/.htpasswd_abstr"
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !^443$
+RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
